@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.child{
+    width: 300px;
+    height: auto;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px pink;
+}
+p{
+    padding: 10px 0px;
+}
+button{
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid violet;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: green;
+    box-shadow: 2px 2px 8px green;
+    font-size: 17px;
+
+}
