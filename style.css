@@ -35,10 +35,9 @@ button{
     border-radius: 8px;
     cursor: pointer;
 }
-/* button:hover{
+
+button:hover{
     background-color: whitesmoke;
     color: green;
-    box-shadow: 2px 2px 8px green;
-    font-size: 17px;
-
-} */
+    box-shadow: 0 0 8px green;
+}
